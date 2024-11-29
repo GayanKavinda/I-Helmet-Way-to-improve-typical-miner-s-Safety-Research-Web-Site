@@ -1,6 +1,6 @@
 # ⛑️ I-Helmet: Enhancing Miner Safety with Smart Technology  
 
-![I-Helmet Showcase](https://via.placeholder.com/800x400.png?text=I-Helmet+Showcase)  
+![I-Helmet Showcase](https://github.com/GayanKavinda/I-Helmet-Way-to-improve-typical-miner-s-Safety-Research-Web-Site/blob/main/Project%20Showcase/photo_2022-06-16_17-18-25.jpg)  
 
 ## 🛠️ Project Overview  
 
