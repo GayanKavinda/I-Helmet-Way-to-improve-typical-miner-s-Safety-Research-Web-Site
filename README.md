@@ -31,6 +31,10 @@ This research aims to reduce the risks associated with mining accidents by provi
 
 ---
 
+![I-Helmet Showcase](https://github.com/GayanKavinda/I-Helmet-Way-to-improve-typical-miner-s-Safety-Research-Web-Site/blob/main/Project%20Showcase/I%20Helmet%20Web%20Page.png)
+
+---
+
 ## 🔬 Research Objectives  
 
 1. **Environmental Monitoring**:  
@@ -111,3 +115,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 🤝 Acknowledgements
 
 - We extend our heartfelt thanks to our supervisors, Dr. Anuradha Jayakody and Mr. Supunya Swarnakantha, for their guidance throughout this research project.
+
+---
+
+![I-Helmet Showcase](https://github.com/GayanKavinda/I-Helmet-Way-to-improve-typical-miner-s-Safety-Research-Web-Site/blob/main/Project%20Showcase/Full%20Webpage.jpeg)
+
+---
