@@ -1,33 +1,113 @@
-# I-Helmet-Way-to-improve-typical-miner-s-Safety-Research-Web-Site
+# ⛑️ I-Helmet: Enhancing Miner Safety with Smart Technology  
 
-Through this research component, we hope to create a usable solution to helmet for safeguard mining individuals those who are working dangerous mining. 
+![I-Helmet Showcase](https://via.placeholder.com/800x400.png?text=I-Helmet+Showcase)  
 
-The main purpose of conducting this research is to save the lives of miners working inside and outside the mine. Because accidents caused by mines are very serious and unsafe. Mine accidents are one of the worst accidents in the world today. If the mine collapses for any reason, the chances of saving the lives of its regular workers can be kept to a minimum. The helmet being developed has environmental data as well as the ability to notify the main control panel in the event of a miner's accident. Although this helmet has the ability to detect frequencies, this feature is not widely available today. We decided to create an IoT based wireless network as an effective communication solution for this mining industry. The main purpose of this IoT based helmet is to enable safe and effective services as well as to save lives. This can ensure the life safety of the miner’s.
+## 🛠️ Project Overview  
 
-The IOT primarily based safety helmet system can take the sensing element input and notice the hazards and once it'll inform to miners’ hazard signals and at the same time it'll show on main management unit conjointly. To get a signal from mine can be obtained using the LORA Modules. By using that can be allowed to connect via Wi-Fi router and then can be exchange the data and information. The LORA antenna is helmet-mounted 
-then it connects to the Node MCU. By connecting Node MCU to the outside mine via LORA cable and can be exchange data. In this way, get data by the workers of the main unit can get by the using this method.
+The **I-Helmet** is an innovative, IoT-based safety helmet designed to enhance the safety of miners working in hazardous conditions. Developed as part of our final-year research project at the **Sri Lanka Institute of Information Technology**, this smart helmet leverages cutting-edge technologies to detect environmental hazards, monitor health parameters, and improve communication in mining sites.  
 
-In this smart helmet we used the machine learning methodology to identify Accidents in mining areas. The first we select a mine to collect dataset for research and gone for it. Basically you need to take accidental and bloody photos of the workers working in the mine. The main thing here is that it is extremely difficult to take these dangerous photos. In such a case the datasets should be obtained in large quantities by showing a false haemorrhage. Here the camera attached to this I-Helmet performs data capture. An employee of the mine then travels to the location of the mine miner, who is identified by the camera and sends a message to the main board. This can lead to a more effective and efficient service. Here the sensor is placed on the helmet and it detects data when there the health parameters, important data can be sent to the doctors before the data to the main unit. To do this, they can use the "Miner-Doc" telemedicine chat application to communicate between the main unit and the doctor. Furthermore, the parameters used in this research are body oxygen, body pulse rate and body temperature.
+This research aims to reduce the risks associated with mining accidents by providing real-time hazard detection, health monitoring, and proactive communication with control units and medical professionals.  
 
-A special sensor attached to this helmet can detect a hazard when something lands on a miner's helmet, and can alert other miners' helmets by alerting them of the danger. The camera module of the hazard detection system and the raspberry-pie are used as the main input and microcontroller. Open-cv algorithm is used to identify cracked walls and wet areas in mine walls. The camera module takes the visuals and raspberry board used to compose images through the image processing code. If the system detects cracks or wet areas, it sends a message to the main dashboard.
+---
 
-In addition, information on toxic gases leaking from mines was investigated. It contains carbon dioxide, carbon monoxide, and hydrogen. Data collected show that toxic gases such as methane and LPG are formed. As a solution to this, the I-helmet device detects the amount of toxins emitted and the amount of toxins emitted.
+## 🌟 Key Features  
 
-It happens as follows.
+- **🚨 Hazard Detection**:  
+  Detects falling objects, cracked walls, and wet mine areas using sensors and image processing (OpenCV).  
+- **🌡️ Health Monitoring**:  
+  Tracks body oxygen levels, pulse rate, and temperature using advanced sensors.  
+- **📷 Smart Camera Integration**:  
+  Uses image processing and machine learning to detect accidents and hazards.  
+- **🌐 Telemedicine Support**:  
+  "Miner-Doc" app connects miners and doctors for real-time health monitoring.  
+- **📡 IoT Connectivity**:  
+  Seamless communication with the central control unit using LoRa modules and Wi-Fi.  
+- **🛑 Toxic Gas Detection**:  
+  Monitors harmful gases (CO, H2, Methane, LPG) and alerts the control unit.  
+- **🍺 Alcohol Detection**:  
+  Identifies miners under the influence of alcohol and notifies supervisors.  
+- **🔊 Real-Time Alerts**:  
+  Buzzers, vibrations, and LEDs alert miners to hazards immediately.  
 
-* The MQ-7 sensor detects carbon monoxide.
-* The MQ-8 sensor detects hydrogen.
-* MQ-2 sensor detects LPG and Methane,
-* The MQ-135 sensor detects carbon dioxide.
+---
 
-The values obtained by these sensors detect the presence of toxic gases and detect the buzzer in the I-helmet rings and illuminate the red LED bulb. In addition to detecting the toxic gases mentioned above, the I-helmet can also detect the miner's alcohol level. If the miner has consumed alcohol before entering the mine or while working in the mine, it can be detected through the alcohol sensor on the I-helmet. If the miner has used alcohol, the Central Control Center will take legal action against him.
+## 🔬 Research Objectives  
 
-* Specific Objectives
+1. **Environmental Monitoring**:  
+   Visualize mining site conditions to prevent accidents.  
+2. **Health Safety**:  
+   Detect miners' health parameters and provide hazard alerts.  
+3. **Telemedicine Integration**:  
+   Enable communication between miners, doctors, and control units.  
+4. **Structural Safety**:  
+   Identify cracks and wet areas in mine walls.  
+5. **Hazard Alerts**:  
+   Notify miners of falling materials and other dangers in real time.  
+6. **Air Quality Monitoring**:  
+   Detect and report toxic gases and employee alcohol levels.  
 
-* To explore and identify environmental condition of the mining site with data visualization.
-* To detect the Health Parameters of the miner’s body, then detect and give the hazard event alarm.
-* To Communicate with Doctors and main unit miners implemented a telemedicine we app.
-* To detect the weight of the material if large materials fall down to the helmet, then detect and give the hazard event alarm.
-* To vibrate the miners' helmet after the detection of hazard.
-* To identify the Cracks and Wet areas in mine walls.
-* xploration of ambient air quality and identification of employee alcohol level and notification to end user.
+---
+
+## 🔧 Technology Stack  
+
+- **Hardware**: LoRa Modules, NodeMCU, Raspberry Pi, Camera Module, Sensors (MQ-2, MQ-7, MQ-8, MQ-135).  
+- **Software**:  
+  - Programming: Python, C++.  
+  - Algorithms: OpenCV for image processing, Machine Learning for accident detection.  
+- **Networking**: IoT-based wireless networks with LoRa and Wi-Fi.  
+- **Telemedicine**: Miner-Doc web application for health communication.  
+- **Data Visualization**: Real-time dashboards for control units.  
+
+---
+
+## 🛠 System Workflow  
+
+1. **Hazard Detection**:  
+   - Sensors and cameras identify falling objects, structural issues, and toxic gases.  
+   - Alerts are triggered via buzzers, vibrations, and LEDs.  
+
+2. **Health Monitoring**:  
+   - Collect vital health data (oxygen levels, pulse rate, temperature).  
+   - Share information with doctors via the Miner-Doc app.  
+
+3. **Data Communication**:  
+   - LoRa modules transmit data to the control unit.  
+   - Information is visualized on dashboards for quick decision-making.  
+
+---
+
+## 🎓 Research Team  
+
+- **👨‍💼 Team Leader**: Gamlath G.R.G.K  
+- **👩‍💻 Team Members**:  
+  - Silva A.H.D.M  
+  - Balasuriya D.A.M  
+  - Rajapaksha R.P.S.C  
+- **🧑‍🏫 Supervisor**: Mr. Supunya Swarnakantha  
+- **🧑‍🏫 Co-Supervisor**: Dr. Anuradha Jayakody  
+
+---
+
+## 📄 Citation  
+
+If you use this research in your work, please cite:  
+
+```plaintext  
+@article{IHelmet2024,  
+  author = {Gamlath G.R.G.K, Silva A.H.D.M, Balasuriya D.A.M, Rajapaksha R.P.S.C},  
+  title = {I-Helmet: Enhancing Miner Safety with Smart Technology},  
+  year = {2024},  
+  institution = {Sri Lanka Institute of Information Technology},  
+}  
+```
+---
+
+## 📝 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+---
+
+## 🤝 Acknowledgements
+
+- We extend our heartfelt thanks to our supervisors, Dr. Anuradha Jayakody and Mr. Supunya Swarnakantha, for their guidance throughout this research project.
